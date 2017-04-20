@@ -18,6 +18,10 @@ parameters:
     default: boto3
     immutable: true
     type: string
+  region_name:
+    type: string
+  assume_role:
+    type: string
   AvailabilityZone:
     type: string
     description: "The Availability Zone for the resulting EBS volume."

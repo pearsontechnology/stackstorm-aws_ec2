@@ -18,6 +18,10 @@ parameters:
     default: boto3
     immutable: true
     type: string
+  region_name:
+    type: string
+  assume_role:
+    type: string
   Type:
     type: string
     description: "The type of VPN connection that this customer gateway supports (ipsec.1)."

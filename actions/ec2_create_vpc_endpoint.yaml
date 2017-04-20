@@ -18,6 +18,10 @@ parameters:
     default: boto3
     immutable: true
     type: string
+  region_name:
+    type: string
+  assume_role:
+    type: string
   VpcId:
     type: string
     description: "The ID of the VPC in which the endpoint will be used."

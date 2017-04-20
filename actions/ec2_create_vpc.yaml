@@ -18,6 +18,10 @@ parameters:
     default: boto3
     immutable: true
     type: string
+  region_name:
+    type: string
+  assume_role:
+    type: string
   CidrBlock:
     type: string
     description: "The IPv4 network range for the VPC, in CIDR notation. For example, 10.0.0.0/16."
