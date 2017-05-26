@@ -11,4 +11,4 @@ aws_access_key_id: null
 aws_secret_access_key: null
 region: "us-east-1"
 interval: 20
-st2_user_data: "/opt/stackstorm/packs/aws/actions/scripts/bootstrap_user.sh"
+st2_user_data: "/opt/stackstorm/packs/aws_ec2/actions/scripts/bootstrap_user.sh"
